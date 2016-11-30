@@ -1,0 +1,14 @@
+<h1>Blog</h1>
+
+
+
+<section class="posts">
+
+    <article class="post" ng-repeat="post in posts | filter: query | orderBy: order | limitTo: 15">
+        <h4>
+            <a ng-href="/#!/blog/{{ post.id }}">{{ post.title }}</a>
+        </h4>
+        <div>{{ post.body | limitTo: 100 }}...</div><!--limitTo odpowiada za wyświetlenie ilości znakow-->
+    </article>
+
+</section>

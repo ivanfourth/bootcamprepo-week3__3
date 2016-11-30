@@ -1,0 +1,15 @@
+.posts {
+    margin:50px 0 0 0;
+}
+.post {
+    padding: 10px 20px 20px 20px;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    border: 1px rgba(63, 75, 86, 0.25) solid;
+}
+.post--full {
+    margin:50px 0 0 0;
+}
+.btn-primary {
+  margin:20px 0 0 0;
+}
